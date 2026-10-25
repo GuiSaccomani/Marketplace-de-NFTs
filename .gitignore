@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Production output
+dist/
+dist-ssr/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local / OS
+*.local
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
+.tanstack/
+
+# Playwright & Tests
+playwright-report/
+test-results*/
+
+# Lighthouse reports
+lighthouse-report*
+lighthouse-reports/
+
